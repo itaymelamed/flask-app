@@ -12,6 +12,6 @@ def test_app2():
 
 def test_db():
     cnx = mysql.connector.connect(user='root', password='root',
-                                  host='database',
+                                  host='MySQL',
                                   database='content_enrichment_development')
     assert cnx.ping()
