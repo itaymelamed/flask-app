@@ -1,8 +1,10 @@
 import requests
 import mysql.connector
+import os
 
 
 def test_app1():
+    assert os.getenv("TEST") == "TEST"
     assert requests.get("http://app1:5000").status_code == 200
 
 
