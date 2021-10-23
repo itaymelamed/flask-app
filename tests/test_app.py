@@ -14,4 +14,4 @@ def test_db():
     cnx = mysql.connector.connect(user='root', password='root',
                                   host='MySQL',
                                   database='content_enrichment_development')
-    assert cnx.ping()
+    assert cnx.is_connected()
