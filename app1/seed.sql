@@ -1,7 +1,3 @@
-
-
-CREATE DATABASE IF NOT EXISTS content_enrichment_development;
-
 use content_enrichment_development;
 
 CREATE TABLE `embeds` (
