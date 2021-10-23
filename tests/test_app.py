@@ -2,4 +2,4 @@ import requests
 
 
 def test_app():
-    assert requests.get("http://app:5000").status_code == 200
+    assert requests.get("http://app1:5000").status_code == 200
